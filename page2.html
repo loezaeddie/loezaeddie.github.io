@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio Website</title>
+<link href="portfolio.css" rel="stylesheet">
+<link href="weatherapi.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+
+<body>
+    <h1>My Favorite App Academy Project</h1>
+    <div id="nav-bar">
+        <a href="index.html">Home</a>
+        <a href="page2.html">My Favorite App Project</a>
+        <a href="page3.html">My Self-Driving Car Essay</a>
+        <a href="page4.html">Bio Project</a>
+    </div>
+    <p>My favorite project I have ever done in my years of being in App Academy has to be the Weather Animals Project.  The weather animals project was where we can put a city, state, or country and it would show the temperature of that area and a cute picture of cute bulldogs. In this project we use a  free weather API from APIXU. The API allows us to find the temperature of an area. The link to the API is right <a href="https://www.apixu.com" class="textlink">HERE</a>.</p>
+ 
+      <div id="programcontainer">
+    <div id="inner">
+      <input type="text" name="zipcode" id="zipcode"> <br>
+      <button onclick="submit()">Weather Bulldog!</button>
+      <div id="weatherinfocontainer">
+      </div>
+      <div id="imagecontainer">
+      </div>
+    </div>
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="weatherapi.js"></script>
+
+    <script src="p5.min.js"></script>
+    <script src="page2.js"></script>
+    <script src="weatherapi.js"></script>
+</body>
+</html>
+ 
